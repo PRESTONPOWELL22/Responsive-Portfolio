@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Looping Through Arrays</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+      // Creating an array of vegetables.
+      var vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+
+      // Looping through each item in the array and logging a message to the console.
+      for (var i = vegetables.length-1; i >= 0; i--) {
+        console.log("I love " + vegetables[i]);
+      }
+
+      var coolPeople = ['kyle' , 'marissa' , 'cameron' , 'claire' , 'carlos']
+      for(var i = 0; i < coolPeople.length; i++){
+          console.log(coolPeople[i])
+      }
+
+      var zooAnimals = ["zebra", "Rhino", "Giraffe", "Owl" , "teradactyl"]
+
+      for(var i=zooAnimals.length-1; i>=0; i--){
+      console.log(zooAnimals[i])
+      }
+
+      
+      for(var i = 0; i <= 4; i++){
+          console.log('i am ' + i)
+      }
+
+      
+
+      var myFarm = ["chickens" , "pigs" , "cows" , "horses" , "ostriches"]
+      
+      for(var i = myFarm[0]; i <= myFarm[4]; i++ ){
+          
+          if(i.charAt(0) === 'c' || 'o'){
+              console.log(i + ' starts with c or o')
+          }
+          else('')
+      }
+
+      for(var i = 0 ; i < myFarm.length; i++)
+        {
+            console.log(myFarm[i])
+            var firstletter = myFarm[i].charAt(0)
+            if(firstletter === "c" || firstletter === "o")
+            {
+                console.log('the string starts with a c or an o')
+            }
+        }
+    </script>
+    
+  </body>
+</html>
